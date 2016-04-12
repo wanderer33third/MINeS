@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <title>Copper MINeS</title>
+        <!--Core CSS-->
+          <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+          <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+          <!--Leaflet-->
+            <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+          <!--Link to "theme" css-->
+            <link rel="stylesheet" type="text/css" href="theme.css">
+    </head>
+
+    <body>
+      <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <!--Leaflet Javascript -->
+        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+              <h1>Copper MINeS - Metallurgy in Indigenous Northern Societies</h1>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">Copper MINeS</a>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav">
+             <li class="active"><a href="#">Home</a></li>
+             <li><a href="#">Intro</a></li>
+             <li><a href="#">Explore the Archaeology</a></li>
+             <li><a href="#">Geological Copper</a></li>
+             <li><a href="#">Linked Bibliography</a></li>
+           </ul>
+           <!--<ul class="nav navbar-nav navbar-right">   <!-- Right side of nav bar - should put a search box here --
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+           </ul>-->
+         </div>
+       </div>
+      </nav>
+
+<!--Main body of website - need a comprehensive bounding div for this section that contains links for the navbar tabs in the navbar -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 col-sm-push-8" style="height:500px">
+              <h4>sidebar</h4>
+              <p>
+                This will be an interactive space that is linked to the geospatial representation on the map
+              </p>
+          </div>
+          <div id="map" class="col-sm-8 col-sm-pull-4" style="height:500px"><!--Leaflet Map begin-->
+          </div>
+              <script>
+                var map= L.map('map').setView([67, -115], 3);
+
+                L.tileLayer(
+                  "http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
+                      minZoom:3,
+                      maxZoom: 11,
+                      subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
+                      attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>. Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
+                  }).addTo(map);
+
+              </script>
+          </div><!--Leaflet Map end-->
+        </div>
+
+<!-- End of main body of website -->
+
+        <div class="container-fluid">
+          <div class="row" style="height:40px">
+            <div class="col-sm-12" style="align:bottom">
+              <h4>
+                footer - attributions, licescing, etc
+              </h4>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
