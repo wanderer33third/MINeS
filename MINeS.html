@@ -11,7 +11,7 @@
           <!--Leaflet-->
             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
           <!--Link to "theme" css-->
-            <link rel="stylesheet" type="text/css" href="theme.css">
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     </head>
 
     <body>
@@ -42,11 +42,10 @@
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
            <ul class="nav navbar-nav">
-             <li class="active"><a href="#">Home</a></li>
-             <li><a href="#">Intro</a></li>
-             <li><a href="#">Explore the Archaeology</a></li>
-             <li><a href="#">Geological Copper</a></li>
-             <li><a href="#">Linked Bibliography</a></li>
+             <li class="active"><a data-toggle="tab" href="#intro">Intro</a></li>
+             <li><a data-toggle="tab" href="#interactivemap">Explore the Archaeology</a></li>
+             <li><a data-toggle="tab" href="#geology">Geological Copper</a></li>
+             <li><a data-toggle="tab" href="#biblio">Linked Bibliography</a></li>
            </ul>
            <!--<ul class="nav navbar-nav navbar-right">   <!-- Right side of nav bar - should put a search box here --
              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -57,31 +56,55 @@
       </nav>
 
 <!--Main body of website - need a comprehensive bounding div for this section that contains links for the navbar tabs in the navbar -->
+<div class="tab content">
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4 col-sm-push-8" style="height:500px">
-              <h4>sidebar</h4>
+  <div id="intro" class="tab-pane fade in active">
+    <div class="col-sm-12">
+      <p>
+        intro text?
+      </p>
+    </div>
+  </div>
+
+  <div id="interactivemap" class="tab-pane fade">
+    <div class="col-sm-4 col-sm-push-8" style="height:500px">
+      <h4>sidebar</h4>
+        <p>
+          This will be an interactive space that is linked to the geospatial representation on the map
+        </p>
+      </div>
+    <div id="map" class="col-sm-8 col-sm-pull-4" style="height:500px"><!--Leaflet Map begin-->
+    </div>
+      <script>
+        var map= L.map('map').setView([67, -115], 3);
+
+        L.tileLayer(
+          "http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
+            minZoom:3,
+            maxZoom: 11,
+            subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
+            attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>. Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
+          }).addTo(map);
+
+      </script><!--Leaflet Map end-->
+    </div>
+
+            <div id="geology" class="tab-pane fade">
+              <div class="col-sm-12">
+                <p>
+                  geology text?
+                </p>
+              </div>
+            </div>
+
+          <div id="biblio" class="tab-pane fade">
+            <div class="col-sm-12">
               <p>
-                This will be an interactive space that is linked to the geospatial representation on the map
+                biblio text?
               </p>
+            </div>
           </div>
-          <div id="map" class="col-sm-8 col-sm-pull-4" style="height:500px"><!--Leaflet Map begin-->
-          </div>
-              <script>
-                var map= L.map('map').setView([67, -115], 3);
-
-                L.tileLayer(
-                  "http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
-                      minZoom:3,
-                      maxZoom: 11,
-                      subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
-                      attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>. Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
-                  }).addTo(map);
-
-              </script>
-          </div><!--Leaflet Map end-->
-        </div>
+    </div><!--Close Tab Content-->
 
 <!-- End of main body of website -->
 
