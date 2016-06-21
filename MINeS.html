@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-      <title>Copper MINeS</title>
+      <title>Copper MINeS Digital Atlas</title>
         <!--Core CSS-->
           <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -10,8 +10,8 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
           <!--Leaflet-->
             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-          <!--Link to "theme" css-->
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+          <!--googleapis-->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> <!-- This script made the toggling nav bar tabs active -->
     </head>
 
     <body>
@@ -25,7 +25,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
-              <h1>Copper MINeS - Metallurgy in Indigenous Northern Societies</h1>
+              <h1>Copper MINeS Digital Atlas- Metallurgy in Indigenous Northern Societies</h1>
           </div>
         </div>
       </div>
@@ -56,10 +56,10 @@
        </div>
       </nav>
 
-<!--Main body of website - need a comprehensive bounding div for this section that contains links for the navbar tabs in the navbar -->
-<div class="tab content">
+<!--Main body of website -->
+<div class="tab content"> <!-- interacts with 'data-toggle="tab"' in nav bar -->
 
-  <div id="intro" class="tab-pane fade in active">
+  <div id="intro" class="tab-pane fade in active"> <!--Introduction Content-->
     <div class="col-sm-12">
       <p>
         intro text?
@@ -67,7 +67,7 @@
     </div>
   </div>
 
-  <div id="interactivemap" class="tab-pane fade">
+  <div id="interactivemap" class="tab-pane fade"> <!-- Interactive Map Content-->
     <div class="col-sm-4 col-sm-push-8" style="height:500px">
       <h4>sidebar</h4>
         <p>
@@ -90,7 +90,7 @@
       </script><!--Leaflet Map end-->
     </div>
 
-            <div id="geology" class="tab-pane fade">
+            <div id="geology" class="tab-pane fade"> <!-- Geology Content -->
               <div class="col-sm-12">
                 <p>
                   geology text?
@@ -106,7 +106,7 @@
               </div>
             </div>
 
-          <div id="biblio" class="tab-pane fade">
+          <div id="biblio" class="tab-pane fade"> <!-- Bibliography Content -->
             <div class="col-sm-12">
               <p>
                 biblio text?
