@@ -81,6 +81,8 @@
       </div>
     <div id="map" class="col-sm-8 col-sm-pull-4" style="height:500px"><!--Leaflet Map begin-->
     </div>
+    <!--All of this is new shit that I put in to try and get the ominvore plugin to pull in the .csv -->
+
       <script>
           L.mapbox.accessToken = 'pk.eyJ1Ijoid2FuZGVyZXIzM3RoaXJkIiwiYSI6IjZiMzkzYjA0YjA4M2UwNmEyZjA4Y2U0M2VkNTQ4NDlmIn0.qJ5aN2EgHA7TC8bBPKgQ0Q';
           var map = L.mapbox.map('map', 'mapbox.satellite')
@@ -93,13 +95,14 @@
           // - The file must either be on the same domain as the page that requests it,
           //   or both the server it is requested from and the user's browser must
           //   support CORS.
+
           function eachLayer(layer) {
                 var feature = layer.toGeoJSON();
                 if (feature.properties && feature.properties.data.title) {
                     layer.bindPopup("Name - " + feature.properties.title);
                 }
             }
-            var points = omnivore.csv('data.csv', {
+            var points = omnivore.csv('/wanderer33third/MINeS/data.csv', {
                 icon: L.mapbox.marker.icon({
                     'marker-symbol': 'airport',
                     'marker-color': '59245f'
