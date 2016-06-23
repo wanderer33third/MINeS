@@ -93,7 +93,7 @@
              .on('ready', function(layer) {
 
 			this.eachLayer(function(marker) {
-          
+
             // Bind a popup to each icon based on the same properties
             // Adds coloumns of extra info to marker popup
 				marker.bindPopup(marker.toGeoJSON().properties.Site + '<br><br>' +
