@@ -93,13 +93,15 @@
              .on('ready', function(layer) {
 
 			this.eachLayer(function(marker) {
-          
+
             // Bind a popup to each icon based on the same properties
             // Adds coloumns of extra info to marker popup
-				marker.bindPopup(marker.toGeoJSON().properties.Site + '<br><br>' +
-                marker.toGeoJSON().properties.Year + '<br><br> ' +
-                marker.toGeoJSON().properties.Acc + '<br><br> ' +
-                marker.toGeoJSON().properties.Institute, {autoPanPadding: [5,55]});
+				marker.bindPopup(marker.toGeoJSON().properties.Site_Borden + '<br><br>' +
+                marker.toGeoJSON().properties.Site_Name + '<br><br> ' +
+                marker.toGeoJSON().properties.Number_of_Copper_Artifacts + '<br><br> ' +
+                marker.toGeoJSON().properties.Cultural_Affiliations + '<br><br> ' +
+                marker.toGeoJSON().properties.Cu_Culture_Affiliations + '<br><br> ' +
+                marker.toGeoJSON().properties.Scientific_Dates, {autoPanPadding: [5,55]});
         });
     })
             .addTo(map);
