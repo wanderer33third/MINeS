@@ -88,35 +88,21 @@
           var map = L.mapbox.map('map', 'mapbox.satellite')
             .setView([67, -115], 3);
 
-          // Omnivore will AJAX-request this file behind the scenes and parse it:
-          // note that there are considerations:
-          // - The CSV file must contain latitude and longitude values, in column
-          //   named roughly latitude and longitude
-          // - The file must either be on the same domain as the page that requests it,
-          //   or both the server it is requested from and the user's browser must
-          //   support CORS.
+            //enter path for .csv here
+              omnivore.csv('data.csv')
+               .on('ready', function(layer) {
+         
+          this.eachLayer(function(marker) {
 
-          function eachLayer(layer) {
-                var feature = layer.toGeoJSON();
-                if (feature.properties && feature.properties.data.title) {
-                    layer.bindPopup("Name - " + feature.properties.title);
-                }
-            }
-            var points = omnivore.csv('/wanderer33third/MINeS/data.csv', {
-                icon: L.mapbox.marker.icon({
-                    'marker-symbol': 'airport',
-                    'marker-color': '59245f'
-                })
-            }).on('ready', function() {
-                map.fitBounds(points.getBounds());
-                var markers = L.markerClusterGroup({
-                    showCoverageOnHover: false,
-                    maxClusterRadius: 50
-                });
-                markers.addLayer(points);
-                map.addLayer(markers);
-                points.eachLayer(eachLayer);
-            });
+              // Bind a popup to each icon based on the same properties
+              // Adds coloumns of extra info to marker popup
+              marker.bindPopup(marker.toGeoJSON().properties.timePeriod +
+                  marker.toGeoJSON().properties.siteName + '<br><br> ' +
+                  marker.toGeoJSON().properties.info + '<br><br> ' +
+                  marker.toGeoJSON().properties.link, {autoPanPadding: [5,55]});
+          });
+      })
+              .addTo(map);
       </script>  <!--Leaflet Map end-->
     </div>
 
