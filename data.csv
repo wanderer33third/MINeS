@@ -1,150 +1,1 @@
-latitude,longitude,Site_Borden,Site_Name,Number_of_Copper_Artifacts,Cultural_Affiliations,Cu_Culture_Affiliations,Scientific_Dates
-67.7,-115.4,MkPk-3,Bloody Falls;Kallak;Kugluk,149,"ASTtThuleCopper Inuit","ASTtmore (either Thule and/or Copper Inuit)","3330 +/- 90 (S-463) (CMC-305)840 +/- 60 (S-462) (CMC-304)320 +/- 40 (Beta-21992) (CMC-1695)250 +/- 50 (Beta-219193) (CMC-1696)"
-72.1,-94.1,PaJs-2,Qariaraqyuk; Mount Oliver,75,Thule,Thule,"460 +/- 90 (Beta-101514) (CMC-1494)420 +/- 60 (Beta-101515) (CMC-1495)"
-68.2,-114.8,NaPi-2,Clachan,52,Thule,Thule,"1070 +/- 60 (S-2020) (CMC-1187)820 +/- 80 (S-2024) (CMC-1191)1030 +/- 70 (S-2025) (CMC-1192)840 +/- 60 (S-2026) (CMC-1193)1280 +/- 70 (S-2023) (CMC-1190)840 +/- 60 (S-2027) (CMC-1194)1090 +/- 70 (S-2021) (CMC-1188)1170 +/- 60 (S-2022) (CMC-1189)"
-64.2,-114.1,LbPg-8,Snare Lake,36,0,,
-75.4,-97.3,QiLd-1,Brooman Point Village,24,"ASTtIndependence IIDorset (early)DorsetThule",,"1160 +/- 100 (BM-1803)1100 +/- 100 (BM-1804)"
-69.3,-134.1,NhTs-2,Cache Point,19,Thule (early),Thule (early),
-62.8,-107,KeNi-4 (and KeNi-4C),Whitefish Lake Site,18,"ASTtPlains Archaic (middle)Shield ArchaicTaltheilei (early)Taltheilei (middle)Taltheilei (late)TaltheileiDene ","Middle Taltheilei is level C (I believe), there may be a few pieces with a different context as well","2580 +/- 80 (S-1531) (CMC-978)2545 +/- 160 (S-1260) (CMC-885)405 +/- 40 (S-1259) (CMC-884)1060 +/- 60 (S-1529) (CMC-976)1040 +/- 70 (S-1441) (CMC-957)1040 +/- 80 (S-1530) (CMC-977)2390 +/-170 (S-1437) (CMC-953)1550 +/- 60 (S-1438) (CMC-954)2480 +/- 60 (S-1440) (CMC-956)3620 +/- 125 (S-1261) (CMC-886)2940 +/- 210 (S-1434) (CMC-950)4040 +/- 130 (S-1435) (CMC-951)2390 +/- 110 (S-1436) (CMC-952)"
-66.3,-110.2,MbNs-1,Nadlok;Nadlak,15,"ThuleCopper Inuit",,"525 +/- 130 (S-2724) (CMC-1347)370 +/- 130 (S-2725) (CMC-1348)< 100 (S-2774) (CMC-1354)410 +/- 105 (S-2775) (CMC-1355)160 +/- 105 (S-2773) (CMC-1353)480 +/- 95 (S-2845) (CMC-1363)325 +/- 90 (S-2846) (CMC-1364)"
-70.6,-112.7,OdPc-1,Kunana,15,"DorsetThuleCopper Inuit",,
-69.3,-134,NiTs-1,Kuukpak; Gupak,14,"Thule (late)Inuvialuit/Mackenzie Inuit",,
-67.6,-138.3,MjVg-1,Rat Indian Creek,14,Gwich'in,,
-66.5,-86.2,MdHs-1,Naujan;Naujaat,12,Thule,,
-69.8,-122.8,NkRi-3,"TiktalikCoastal Site No. 20Bracelet",11,Thule,,"620 +/- 40 (Beta-148774) (CMC-1555)670 +/- 40 (Beta-148775) (CMC-1556)670 +/- 40 (Beta 148776) (CMC-1557)680 +/- 40 (Beta 148603) (CMC-1554)740 +/- 40 (Beta 148602) (CMC-1553)800 +/- 40 (Beta-152239) (CMC-1559)800 +/- 40 (Beta-152240) (CMC-1560)820 +/- 40 (Beta-148601) (CMC-1552)1550 +/- 40 (Beta-152238) (CMC-1558)"
-72.8,-93.8,PeJr-1,Creswell Bay;Creswell East 7;Learmonth,11,Dorset;Thule,,"1010 +/- 100 (S-1323) (CMC-915)1130 +/- 90 (S-1325) (CMC-917)830 +/- 70 (S-1324) (CMC-916)585 +/- 85 (UGa-1618)"
-69.6,-138.9,NjVi-2,Washout,10,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
+latitude,longitude,Site_Borden,Site_Name,Number_of_Copper_Artifacts,Cultural_Affiliations,Cu_Culture_Affiliations,Scientific_Dates67.7,-115.4,MkPk-3,Bloody Falls;Kallak;Kugluk,149,"ASTtThuleCopper Inuit","ASTtmore (either Thule and/or Copper Inuit)","3330 +/- 90 (S-463) (CMC-305)840 +/- 60 (S-462) (CMC-304)320 +/- 40 (Beta-21992) (CMC-1695)250 +/- 50 (Beta-219193) (CMC-1696)"72.1,-94.1,PaJs-2,Qariaraqyuk; Mount Oliver,75,Thule,Thule,"460 +/- 90 (Beta-101514) (CMC-1494)420 +/- 60 (Beta-101515) (CMC-1495)"68.2,-114.8,NaPi-2,Clachan,52,Thule,Thule,"1070 +/- 60 (S-2020) (CMC-1187)820 +/- 80 (S-2024) (CMC-1191)1030 +/- 70 (S-2025) (CMC-1192)840 +/- 60 (S-2026) (CMC-1193)1280 +/- 70 (S-2023) (CMC-1190)840 +/- 60 (S-2027) (CMC-1194)1090 +/- 70 (S-2021) (CMC-1188)1170 +/- 60 (S-2022) (CMC-1189)"64.2,-114.1,LbPg-8,Snare Lake,36,0,,75.4,-97.3,QiLd-1,Brooman Point Village,24,"ASTtIndependence IIDorset (early)DorsetThule",,"1160 +/- 100 (BM-1803)1100 +/- 100 (BM-1804)"69.3,-134.1,NhTs-2,Cache Point,19,Thule (early),Thule (early),62.8,-107,KeNi-4 (and KeNi-4C),Whitefish Lake Site,18,"ASTtPlains Archaic (middle)Shield ArchaicTaltheilei (early)Taltheilei (middle)Taltheilei (late)TaltheileiDene ","Middle Taltheilei is level C (I believe), there may be a few pieces with a different context as well","2580 +/- 80 (S-1531) (CMC-978)2545 +/- 160 (S-1260) (CMC-885)405 +/- 40 (S-1259) (CMC-884)1060 +/- 60 (S-1529) (CMC-976)1040 +/- 70 (S-1441) (CMC-957)1040 +/- 80 (S-1530) (CMC-977)2390 +/-170 (S-1437) (CMC-953)1550 +/- 60 (S-1438) (CMC-954)2480 +/- 60 (S-1440) (CMC-956)3620 +/- 125 (S-1261) (CMC-886)2940 +/- 210 (S-1434) (CMC-950)4040 +/- 130 (S-1435) (CMC-951)2390 +/- 110 (S-1436) (CMC-952)"66.3,-110.2,MbNs-1,Nadlok;Nadlak,15,"ThuleCopper Inuit",,"525 +/- 130 (S-2724) (CMC-1347)370 +/- 130 (S-2725) (CMC-1348)< 100 (S-2774) (CMC-1354)410 +/- 105 (S-2775) (CMC-1355)160 +/- 105 (S-2773) (CMC-1353)480 +/- 95 (S-2845) (CMC-1363)325 +/- 90 (S-2846) (CMC-1364)"70.6,-112.7,OdPc-1,Kunana,15,"DorsetThuleCopper Inuit",,69.3,-134,NiTs-1,Kuukpak; Gupak,14,"Thule (late)Inuvialuit/Mackenzie Inuit",,67.6,-138.3,MjVg-1,Rat Indian Creek,14,Gwich'in,,66.5,-86.2,MdHs-1,Naujan;Naujaat,12,Thule,,69.8,-122.8,NkRi-3,"TiktalikCoastal Site No. 20Bracelet",11,Thule,,"620 +/- 40 (Beta-148774) (CMC-1555)670 +/- 40 (Beta-148775) (CMC-1556)670 +/- 40 (Beta 148776) (CMC-1557)680 +/- 40 (Beta 148603) (CMC-1554)740 +/- 40 (Beta 148602) (CMC-1553)800 +/- 40 (Beta-152239) (CMC-1559)800 +/- 40 (Beta-152240) (CMC-1560)820 +/- 40 (Beta-148601) (CMC-1552)1550 +/- 40 (Beta-152238) (CMC-1558)"72.8,-93.8,PeJr-1,Creswell Bay;Creswell East 7;Learmonth,11,Dorset;Thule,,"1010 +/- 100 (S-1323) (CMC-915)1130 +/- 90 (S-1325) (CMC-917)830 +/- 70 (S-1324) (CMC-916)585 +/- 85 (UGa-1618)"69.6,-138.9,NjVi-2,Washout,10,,,
