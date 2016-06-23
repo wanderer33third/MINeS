@@ -89,20 +89,20 @@
             .setView([67, -115], 3);
 
             //enter path for .csv here
-              omnivore.csv('data.csv')
-               .on('ready', function(layer) {
-         
-          this.eachLayer(function(marker) {
+            omnivore.csv('/wanderer33third.github.io/data.csv')
+             .on('ready', function(layer) {
 
-              // Bind a popup to each icon based on the same properties
-              // Adds coloumns of extra info to marker popup
-              marker.bindPopup(marker.toGeoJSON().properties.timePeriod +
-                  marker.toGeoJSON().properties.siteName + '<br><br> ' +
-                  marker.toGeoJSON().properties.info + '<br><br> ' +
-                  marker.toGeoJSON().properties.link, {autoPanPadding: [5,55]});
-          });
-      })
-              .addTo(map);
+			this.eachLayer(function(marker) {
+          
+            // Bind a popup to each icon based on the same properties
+            // Adds coloumns of extra info to marker popup
+				marker.bindPopup(marker.toGeoJSON().properties.Site + '<br><br>' +
+                marker.toGeoJSON().properties.Year + '<br><br> ' +
+                marker.toGeoJSON().properties.Acc + '<br><br> ' +
+                marker.toGeoJSON().properties.Institute, {autoPanPadding: [5,55]});
+        });
+    })
+            .addTo(map);
       </script>  <!--Leaflet Map end-->
     </div>
 
