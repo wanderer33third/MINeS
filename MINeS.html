@@ -2,7 +2,17 @@
 <html lang="en">
 
     <head>
+        <meta charset="utf-8">
       <title>Copper MINeS Digital Atlas</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+
+        <!--Mapbox, Leaflet-Omnivore, Leaflet-MarkerCluster-->
+            <script src='//api.tiles.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+            <link href='//api.tiles.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet'>
+            <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.0.1/leaflet-omnivore.min.js'></script>
+            <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+            <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet'>
+            <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet'>
         <!--Core CSS-->
           <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -22,12 +32,6 @@
     </head>
 
     <body>
-      <!--Mapbox -->
-        <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-        <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
-      <!--Leaflet Omnivore-->
-        <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
-
 
       <div class="container-fluid">
         <div class="row">
@@ -85,26 +89,40 @@
     </div>
     <!--All of this is new shit that I put in to try and get the ominvore plugin to pull in the .csv -->
 
-      <script>
-          L.mapbox.accessToken = 'pk.eyJ1Ijoid2FuZGVyZXIzM3RoaXJkIiwiYSI6IjZiMzkzYjA0YjA4M2UwNmEyZjA4Y2U0M2VkNTQ4NDlmIn0.qJ5aN2EgHA7TC8bBPKgQ0Q';
-          var map = L.mapbox.map('map', 'mapbox.satellite')
-            .setView([67, -115], 3);
-            //enter path for .csv here
-//            omnivore.csv('MINeS/data_simplified.csv').addTo(map);
-//             .on('ready', function(layer) {
-//			this.eachLayer(function(marker) {
-            // Bind a popup to each icon based on the same properties
-            // Adds coloumns of extra info to marker popup
-//				marker.bindPopup(marker.toGeoJSON().properties.Site_Borden + '<br><br>' +
-//                marker.toGeoJSON().properties.Site_Name + '<br><br> ' +
-//                marker.toGeoJSON().properties.Number_of_Copper_Artifacts + '<br><br> ' +
-//                marker.toGeoJSON().properties.Cultural_Affiliations + '<br><br> ' +
-//                marker.toGeoJSON().properties.Cu_Culture_Affiliations + '<br><br> ' +
-//                marker.toGeoJSON().properties.Scientific_Dates, {autoPanPadding: [5,55]});
-//        });
-//    })
-//            .addTo(map);
-      </script>  <!--Leaflet Map end-->
+            <script>
+            var map = L.mapbox.map('map', 'faraday2.hb90naie', {
+            detectRetina: true,
+            zoomControl: true,
+            //take away the zoom controls on the top left
+            infoControl: false,
+            maxZoom: 15
+        });
+        map.setView([67, -115], 3);
+        function eachLayer(layer) {
+            var feature = layer.toGeoJSON();
+            if (feature.properties && feature.properties.data.title) {
+                layer.bindPopup("Name - " + feature.properties.title);
+            }
+        }
+        var points = omnivore.csv('data_simplified.csv', {
+            icon: L.mapbox.marker.icon({
+                'marker-symbol': 'airport',
+                'marker-color': '59245f'
+            })
+        }).on('ready', function() {
+            map.fitBounds(points.getBounds());
+            var markers = L.markerClusterGroup({
+                showCoverageOnHover: false,
+                maxClusterRadius: 50
+            });
+            markers.addLayer(points);
+            map.addLayer(markers);
+            points.eachLayer(eachLayer);
+        });
+            </script>
+
+      <!--Leaflet Map end-->
+
     </div>
 
             <div id="geology" class="tab-pane fade"> <!-- Geology Content -->
