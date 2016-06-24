@@ -90,6 +90,7 @@
     <!--All of this is new shit that I put in to try and get the ominvore plugin to pull in the .csv -->
 
             <script>
+            L.mapbox.accessToken = 'pk.eyJ1Ijoid2FuZGVyZXIzM3RoaXJkIiwiYSI6IjZiMzkzYjA0YjA4M2UwNmEyZjA4Y2U0M2VkNTQ4NDlmIn0.qJ5aN2EgHA7TC8bBPKgQ0Q';
             var map = L.mapbox.map('map', 'mapbox.streets-satellite', {
             detectRetina: true,
             zoomControl: true,
@@ -161,28 +162,6 @@
             </div>
           </div>
         </div>
-        <!-- Bootstrap core JavaScript
-           ================================================== -->
-           <!-- Placed at the end of the document so the pages load faster -->
-           <script src="/MINeS/js/bootstrap.min.js"></script>
-           <script src="/MINeS/leaflet-omnivore-master/leaflet-omnivore.js"></script>
-       	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.3/mapbox-gl.css"></script>
-       	<script src="/MINeS/mapbox-gl-leaflet-master/leaflet-mapbox-gl.js"></script>
-       <script>
-       var map = L.map('map').setView([67, -115], 3);
-       	//enter path for .csv here
-                   omnivore.csv('/MINeS/data_simplified.csv')
-                    .on('ready', function(layer) {
-
-       			this.eachLayer(function(marker) {
-
-                   // Bind a popup to each icon based on the same properties
-                   // Adds coloumns of extra info to marker popup
-       				    marker.bindPopup(marker.toGeoJSON().properties.Site_Borden + '<br><br>' +
-                       marker.toGeoJSON().properties.Site_Name, {autoPanPadding: [5,55]});
-               });
-           })
-                   .addTo(map);
 
        </script>
     </body>
