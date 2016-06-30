@@ -96,7 +96,7 @@
             map.setView([67, -115], 3);
             function eachLayer(layer) {
                 var feature = layer.toGeoJSON();
-                if (feature.properties && feature.properties.data.Site_Name) {
+                if (feature.properties && feature.properties.data_simplified.Site_Name) {
                     layer.bindPopup("Name - " + feature.properties.Site_Name);
                 }
             }
