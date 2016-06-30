@@ -96,10 +96,11 @@
             map.setView([67, -115], 3);
             function eachLayer(layer) {
                 var feature = layer.toGeoJSON();
-                if (feature.properties && feature.properties.data.title) {
-                    layer.bindPopup("Name - " + feature.properties.title);
+                if (feature.properties && feature.properties.Site_Name) {
+                    layer.bindPopup("Name - " + feature.properties.Site_Name);
                 }
             }
+
             var points = omnivore.csv('data_simplified.csv', {
                 icon: L.mapbox.marker.icon({
                     'marker-symbol': 'airport',
