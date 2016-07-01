@@ -99,9 +99,6 @@
                 if (feature.properties && feature.properties.Site_Name) {
                     layer.bindPopup(feature.properties.Site_Borden + ", " + feature.properties.Site_Name);
                 }
-                map.featureLayer.on('click', function(e) {
-                  map.panTo(e.layer.getLatLng());
-                  })
             }
 
             var points = omnivore.csv('data_simplified.csv', {
