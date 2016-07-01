@@ -52,8 +52,8 @@
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
            <ul class="nav navbar-nav">
-             <li class="active"><a data-toggle="tab" href="#intro">Intro</a></li>
-             <li><a data-toggle="tab" href="#interactivemap">Explore the Archaeology</a></li>
+             <li><a data-toggle="tab" href="#intro">Intro</a></li>
+             <li class="active"><a data-toggle="tab" href="#interactivemap">Explore the Archaeology</a></li>
              <li><a data-toggle="tab" href="#geology">Geological Copper</a></li>
              <li><a data-toggle="tab" href="#experimental">Experimental Archaeology</a></li>
              <li><a data-toggle="tab" href="#biblio">Linked Bibliography</a></li>
@@ -69,7 +69,7 @@
 <!--Main body of website -->
 <div class="tab content"> <!-- interacts with 'data-toggle="tab"' in nav bar -->
 
-  <div id="intro" class="tab-pane fade in active"> <!--Introduction Content-->
+  <div id="intro" class="tab-pane fade"> <!--Introduction Content-->
     <div class="col-sm-12">
       <p>
         intro text?
@@ -77,7 +77,7 @@
     </div>
   </div>
 
-  <div id="interactivemap" class="tab-pane fade"> <!-- Interactive Map Content-->
+  <div id="interactivemap" class="tab-pane fade in active"> <!-- Interactive Map Content-->
     <div class="col-sm-4 col-sm-push-8" style="height:500px">
       <h4>sidebar</h4>
         <p>
@@ -86,7 +86,7 @@
       </div>
     <div id="map" class="col-sm-8 col-sm-pull-4" style="height:500px"><!--Leaflet Map begin-->
     </div>
-    <!--All of this is new shit that I put in to try and get the ominvore plugin to pull in the .csv -->
+    <!--start of actual leaflet map -->
 
       <script>
           L.mapbox.accessToken = 'pk.eyJ1Ijoid2FuZGVyZXIzM3RoaXJkIiwiYSI6IjZiMzkzYjA0YjA4M2UwNmEyZjA4Y2U0M2VkNTQ4NDlmIn0.qJ5aN2EgHA7TC8bBPKgQ0Q';
