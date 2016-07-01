@@ -92,9 +92,6 @@
           L.mapbox.accessToken = 'pk.eyJ1Ijoid2FuZGVyZXIzM3RoaXJkIiwiYSI6IjZiMzkzYjA0YjA4M2UwNmEyZjA4Y2U0M2VkNTQ4NDlmIn0.qJ5aN2EgHA7TC8bBPKgQ0Q';
           var map = L.mapbox.map('map', 'mapbox.streets-satellite')
 
-          map.featureLayer.on('click', function(e) {
-            map.panTo(e.layer.getLatLng());
-            });
             //enter path for .csv here
             map.setView([67, -115], 3);
             function eachLayer(layer) {
@@ -102,6 +99,9 @@
                 if (feature.properties && feature.properties.Site_Name) {
                     layer.bindPopup(feature.properties.Site_Borden + ", " + feature.properties.Site_Name);
                 }
+                map.featureLayer.on('click', function(e) {
+                  map.panTo(e.layer.getLatLng());
+                  })
             }
 
             var points = omnivore.csv('data_simplified.csv', {
