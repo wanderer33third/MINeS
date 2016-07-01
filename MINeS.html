@@ -116,6 +116,9 @@
                 map.addLayer(markers);
                 points.eachLayer(eachLayer);
             });
+            map.featureLayer.on('click', function(e) {
+        map.panTo(e.layer.getLatLng());
+    });
       </script>  <!--Leaflet Map end-->
     </div>
 
