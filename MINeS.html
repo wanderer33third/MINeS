@@ -110,6 +110,16 @@
                     layer.bindPopup(feature.properties.Site_Borden + ", " + feature.properties.Site_Name);
                 }
             }
+// The following website and greyed basic code seem like a good starting point to build a click function into the markers
+// that will call images and a site specific .csv with artifact information from github and display them in the map sidebar.
+
+// http://leafletjs.com/reference.html#events
+
+// function onClick(e) { ... }
+
+// map.on('click', onClick);
+// map.off('click', onClick);
+
 
             var points = omnivore.csv('data_simplified.csv', {
                 icon: L.mapbox.marker.icon({
