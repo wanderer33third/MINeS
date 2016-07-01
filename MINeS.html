@@ -91,7 +91,10 @@
       <script>
           L.mapbox.accessToken = 'pk.eyJ1Ijoid2FuZGVyZXIzM3RoaXJkIiwiYSI6IjZiMzkzYjA0YjA4M2UwNmEyZjA4Y2U0M2VkNTQ4NDlmIn0.qJ5aN2EgHA7TC8bBPKgQ0Q';
           var map = L.mapbox.map('map', 'mapbox.streets-satellite')
-            .setView([67, -115], 3);
+
+          map.featureLayer.on('click', function(e) {
+            map.panTo(e.layer.getLatLng());
+            });
             //enter path for .csv here
             map.setView([67, -115], 3);
             function eachLayer(layer) {
@@ -116,9 +119,7 @@
                 map.addLayer(markers);
                 points.eachLayer(eachLayer);
             });
-            map.featureLayer.on('click', function(e) {
-        map.panTo(e.layer.getLatLng());
-    });
+
       </script>  <!--Leaflet Map end-->
     </div>
 
