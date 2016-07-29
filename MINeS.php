@@ -87,7 +87,7 @@
     <!--Sidebar Content-->
     <div class="col-sm-4 col-sm-push-8" style="height:500px">
       <h4>Artifacts</h4>
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -238,8 +238,8 @@
 <!-- End of main body of website -->
 
         <div class="container-fluid">
-          <div class="row" style="height:40px">
-            <div class="col-sm-12" style="align:bottom">
+          <div class="row">
+            <div class="col-sm-12" style="position:fixed;bottom:0;height:auto;margin-top:40px;width:100%;text-align:left">
               <h4>
                 footer - attributions, licescing, etc
               </h4>
