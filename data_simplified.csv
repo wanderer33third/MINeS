@@ -32,7 +32,7 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 0.0,0.0,PlPx-1,0,5
 0.0,0.0,KkHh-1,0,4
 0.0,0.0,OdPc-5,0,4
-,,OhRh-1,Nelson River,4
+0.0,0.0,OhRh-1,Nelson River,4
 74.7,-94.9,QeJu-3,Lake,4
 62.8,-115.9,KePl-1,Frank Channel,3
 66.6,-118.0,MdPs-25,0,3
@@ -46,19 +46,19 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 0.0,0.0,NlTk-2,0,3
 70.6,-112.6,OdPb-1,Kuuk-IV,3
 0.0,0.0,OdPp-2,0,3
-,,OdPq-1,Memorana,3
+0.0,0.0,OdPq-1,Memorana,3
 72.5,-93.4,PcJq-5,Cape Garry,3
 73.0,-80.6,PgHb-1,Nunguvik,3
 74.7,-94.9,QeJu-1,High;M1,3
 74.7,-94.9,QeJu-2,Lower;M2,3
 76.1,-94.9,RaJu-1,Snowdrift,3
 76.3,-93.7,RbJr-1,Porden Point Brook Village,3
-,,KbNa-16,0,2
+0.0,0.0,KbNa-16,0,2
 65.8,-114.3,LkPg-9,0,2
 66.6,-122.6,MdRh-3,0,2
-,,MePr-8,Great Bear Lake XII,2
+0.0,0.0,MePr-8,Great Bear Lake XII,2
 66.9,-121.3,MfRd-4,0,2
-,,MiRi-2,Herton Lake/ Great Bear Lake II,2
+0.0,0.0,MiRi-2,Herton Lake/ Great Bear Lake II,2
 0.0,0.0,MkPk-2,0,2
 0.0,0.0,MlPi-1,0,2
 68.2,-131.0,NbTj-1,0,2
@@ -74,7 +74,7 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 0.0,0.0,XBM-9,0,2
 0.0,0.0,HAR-1,0,1
 0.0,0.0,JiNd-1,0,1
-,,KbNb-4,KbNb-4,1
+0.0,0.0,KbNb-4,KbNb-4,1
 62.4,-106.0,KcNg-3,0,1
 63.7,-104.5,KjNb-7,Duc,1
 63.7,-100.4,KkLn-1,Grant Lake,1
@@ -91,7 +91,7 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 65.4,-114.2,LiPg-14,0,1
 65.4,-114.3,LiPh-11,0,1
 65.5,-114.5,LiPh-5,0,1
-,,MaRm-1,Great Bear Lake I,1
+0.0,0.0,MaRm-1,Great Bear Lake I,1
 66.7,-117.7,MdPr-1,Great Bear Lake II,1
 66.6,-118.0,MdPs-22,0,1
 66.6,-118.1,MdPs-31,0,1
@@ -102,8 +102,8 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 67.3,-137.8,MhVf-1,Bell Mouth,1
 0.0,0.0,MiPq-1a,0,1
 0.0,0.0,MiRh-12,0,1
-,,MiRi-1,Herton Lake/ Great Bear Lake I,1
-,,MiRi-3,Herton Lake/ Great Bear Lake III,1
+0.0,0.0,MiRi-1,Herton Lake/ Great Bear Lake I,1
+0.0,0.0,MiRi-3,Herton Lake/ Great Bear Lake III,1
 0.0,0.0,MjVg-8,0,1
 67.6,-139.6,MjVk-7,Old Chief Creek,1
 0.0,0.0,MjVl-6 (?),0,1
@@ -113,17 +113,17 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 67.7,-115.4,MkPk-12,0,1
 67.7,-115.4,MkPk-4,0,1
 67.8,-115.3,MkPk-9,Willowherb,1
-,,MMPP-1,MmPp-1,1
+0.0,0.0,MMPP-1,MmPp-1,1
 0.0,0.0,MyPy-1,0,1
-,,NfTn-2,0,1
+0.0,0.0,NfTn-2,0,1
 0.0,0.0,NhJp-4,0,1
 0.0,0.0,NhPf-0?,0,1
 0.0,0.0,NhTr-1,0,1
 0.0,0.0,NiHf-1,0,1
 0.0,0.0,NiJq-15,0,1
-,,NiTr-2,0,1
+0.0,0.0,NiTr-2,0,1
 0.0,0.0,NkRh-1,0,1
-,,NkRh-8,0,1
+0.0,0.0,NkRh-8,0,1
 0.0,0.0,NkRj-3,0,1
 0.0,0.0,NkRo-2,0,1
 0.0,0.0,NkTc-5,0,1
@@ -134,7 +134,7 @@ latitude,longitude,Site_Num,Site_Name,Number_of_Copper_Artifacts
 0.0,0.0,ObRv-25,0,1
 0.0,0.0,OdTa-#,0,1
 0.0,0.0,OhPo-5,0,1
-,,OlRr-1,0,1
+0.0,0.0,OlRr-1,0,1
 0.0,0.0,PaJs-13,0,1
 72.5,-111.2,PcNv-1,0,1
 72.7,-93.8,PeJr-4,Nuvuktutak ?,1
