@@ -162,7 +162,7 @@
             map.setView([67, -115], 3);
             function eachLayer(layer) {
                 var feature = layer.toGeoJSON();
-                if (feature.properties && feature.properties.Site_Name) {
+                if (feature.properties && feature.properties.Site_Num) {
                     layer.bindPopup(feature.properties.Site_Num + ", " + feature.properties.Site_Name);
                 }
             }
