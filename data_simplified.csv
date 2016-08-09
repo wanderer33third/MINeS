@@ -1,1 +1,152 @@
-latitude,longitude,Site_Borden,Site_Name67.7,-115.4,MkPk-3,Bloody Falls;Kallak;Kugluk72.1,-94.1,PaJs-2,Qariaraqyuk; Mount Oliver68.2,-114.8,NaPi-2,Clachan64.2,-114.1,LbPg-8,Snare Lake75.4,-97.3,QiLd-1,Brooman Point Village69.3,-134.1,NhTs-2,Cache Point62.8,-107,KeNi-4 (and KeNi-4C),Whitefish Lake Site66.3,-110.2,MbNs-1,Nadlok;Nadlak70.6,-112.7,OdPc-1,Kunana69.3,-134,NiTs-1,Kuukpak; Gupak67.6,-138.3,MjVg-1,Rat Indian Creek66.5,-86.2,MdHs-1,Naujan;Naujaat69.8,-122.8,NkRi-3,Tiktalik72.8,-93.8,PeJr-1,Creswell Bay;Creswell East 7;Learmonth69.6,-138.9,NjVi-2,Washout
+latitude,longitude,Site_Num,Site_Name,Spatial Cluster,Number of Copper Artifacts,Cultural Affiliations,Cu_Culture_Affiliations,Scientific Dates,Associated Dates,Cu_Dates
+67.7,-115.4,MkPk-3,Bloody Falls;Kallak;Kugluk,"Coronation GulfBloody Falls Cluster",149,"ASTtThuleCopper Inuit","ASTtmore (either Thule and/or Copper Inuit)","3330 +/- 90 (S-463) (CMC-305)840 +/- 60 (S-462) (CMC-304)320 +/- 40 (Beta-21992) (CMC-1695)250 +/- 50 (Beta-219193) (CMC-1696)","historic occupation dates to late 18th, early 19th century;prehistoric occupation dates to AD 1400; also ASTt occupation (McGhee 1970)",
+72.1,-94.1,PaJs-2,Qariaraqyuk; Mount Oliver,Somerset Island,75,Thule,Thule,"460 +/- 90 (Beta-101514) (CMC-1494)420 +/- 60 (Beta-101515) (CMC-1495)",0,
+68.2,-114.8,NaPi-2,Clachan,Coronation Gulf,52,Thule,Thule,"1070 +/- 60 (S-2020) (CMC-1187)820 +/- 80 (S-2024) (CMC-1191)1030 +/- 70 (S-2025) (CMC-1192)840 +/- 60 (S-2026) (CMC-1193)1280 +/- 70 (S-2023) (CMC-1190)840 +/- 60 (S-2027) (CMC-1194)1090 +/- 70 (S-2021) (CMC-1188)1170 +/- 60 (S-2022) (CMC-1189)",0,
+64.2,-114.1,LbPg-8,Snare Lake,Tlicho cluster?,36,0,,,0,
+75.4,-97.3,QiLd-1,Brooman Point Village,High Arctic Islands,24,"ASTtIndependence IIDorset (early)DorsetThule",,"1160 +/- 100 (BM-1803)1100 +/- 100 (BM-1804)",11th - 12th centuries,
+69.3,-134.1,NhTs-2,Cache Point,Mackenzie Delta,19,Thule (early),Thule (early),,0,
+62.8,-107.0,KeNi-4 (and KeNi-4C),Whitefish Lake Site,Thelon River,18,"ASTtPlains Archaic (middle)Shield ArchaicTaltheilei (early)Taltheilei (middle)Taltheilei (late)TaltheileiDene ","Middle Taltheilei is level C (I believe), there may be a few pieces with a different context as well","2580 +/- 80 (S-1531) (CMC-978)2545 +/- 160 (S-1260) (CMC-885)405 +/- 40 (S-1259) (CMC-884)1060 +/- 60 (S-1529) (CMC-976)1040 +/- 70 (S-1441) (CMC-957)1040 +/- 80 (S-1530) (CMC-977)2390 +/-170 (S-1437) (CMC-953)1550 +/- 60 (S-1438) (CMC-954)2480 +/- 60 (S-1440) (CMC-956)3620 +/- 125 (S-1261) (CMC-886)2940 +/- 210 (S-1434) (CMC-950)4040 +/- 130 (S-1435) (CMC-951)2390 +/- 110 (S-1436) (CMC-952)",0,
+66.3,-110.2,MbNs-1,Nadlok;Nadlak,,15,"ThuleCopper Inuit",,"525 +/- 130 (S-2724) (CMC-1347)370 +/- 130 (S-2725) (CMC-1348)< 100 (S-2774) (CMC-1354)410 +/- 105 (S-2775) (CMC-1355)160 +/- 105 (S-2773) (CMC-1353)480 +/- 95 (S-2845) (CMC-1363)325 +/- 90 (S-2846) (CMC-1364)",0,
+70.6,-112.7,OdPc-1,Kunana,,15,"DorsetThuleCopper Inuit",,,Dorset to 19th century,
+69.3,-134.0,NiTs-1,Kuukpak; Gupak,Mackenzie Delta,14,"Thule (late)Inuvialuit/Mackenzie Inuit",,,0,
+67.6,-138.3,MjVg-1,Rat Indian Creek,Gwich'in,14,Gwich'in,,,0,
+66.5,-86.2,MdHs-1,Naujan;Naujaat,,12,Thule,,,0,
+69.8,-122.8,NkRi-3,"TiktalikCoastal Site No. 20Bracelet",,11,Thule,,"620 +/- 40 (Beta-148774) (CMC-1555)670 +/- 40 (Beta-148775) (CMC-1556)670 +/- 40 (Beta 148776) (CMC-1557)680 +/- 40 (Beta 148603) (CMC-1554)740 +/- 40 (Beta 148602) (CMC-1553)800 +/- 40 (Beta-152239) (CMC-1559)800 +/- 40 (Beta-152240) (CMC-1560)820 +/- 40 (Beta-148601) (CMC-1552)1550 +/- 40 (Beta-152238) (CMC-1558)",0,
+72.8,-93.8,PeJr-1,Creswell Bay;Creswell East 7;Learmonth,Somerset Island,11,Dorset;Thule,,"1010 +/- 100 (S-1323) (CMC-915)1130 +/- 90 (S-1325) (CMC-917)830 +/- 70 (S-1324) (CMC-916)585 +/- 85 (UGa-1618)",0,
+69.6,-138.9,NjVi-2,Washout,Mackenzie Delta,10,,,,#N/A,
+,,,,,,,,,,
+0.0,0.0,PjRa-10,Isachsen Sands,,10,"Copper InuitBritish Navy",,,AD 1851 - A.D. 1890,
+#N/A,#N/A,NjRc-1,#N/A,,9,#N/A,,,#N/A,
+68.5,-113.3,NcPd-1,Lady Franklin Site,Coronation Gulf,8,Copper Inuit,,1330 +/- 130 (GSC-650),20th century and earlier,
+70.2,-124.7,ObRo-2,Jackson,,7,"Dorset (late) ?Thule",,"1190 +/- 100 (M-1508) (CMC-6)1220 +/- 100 (M-1509) (CMC-7)600 +/- 05 (I-2052) (CMC-85a)935 +/- 90 (I-2088) (CMC-85c)",0,
+#N/A,#N/A,PkPx-2,#N/A,,7,#N/A,,,#N/A,
+#N/A,#N/A,XHP-308,#N/A,,7,#N/A,,,#N/A,
+63.7,-90.1,KkJg-1,Silumiut,"Thelon RiverHB Coast",6,"DorsetThule",,"810 +/- 70 (GAK-2749) (CMC-341)690 +/- 90 (GAK-2759) (CMC-369)420 +/- 65 (SI-744)840 +/- 100 (SI-746)235 +/- 50 (SI-748)760 +/- 75 (SI-749)255 +/- 45 (SI-752A)380 +/- 80 (SI-752B)765 +/- 45 (SI-753)750 +/- 85 (SI-755A)modern (SI-755A)1150 +/-",0,
+#N/A,#N/A,MlPj-2,#N/A,,6,#N/A,,,#N/A,
+68.5,-113.2,NcPd-2,Lady Franklin Point,Coronation Gulf,6,Thule,,"660  ñ 301140 +/- 100 (S-2222) (CMC-1263)1210 +/- 60 BP1420 +/- 60 BP1330 +/- 130 (GSC-650) (CMC-111)1350 +/- 60 (TO-8542)1510 +/- 30 (CAMS-66368)1540 +/- 70 (TO-8509)1990 +/- 100 (TO-8510)","1210 +/- 60 BP1420 +/- 60 BP",
+68.4,-114.0,NcPf-12,Beulah,Coronation Gulf,6,Thule,,"890 +/- 95 (S-2223) (CMC-1264)1730 +/- 160 (S-3368) (CMC-1406)770 +/- 70 (S-3369) (CMC-1407)",0,
+69.4,-106.2,NiNg-2,Bell,,6,"Dorset (early, middle)Dorset (late)ThuleCopper Inuit",,"1145 +/- 125 (S-3037) (CMC-1395)955 +/- 125 (S-3038) (CMC-1396)",0,
+69.8,-122.7,NkRh-3,"Pearce PointCoastal Site No. 18",,6,Thule,,"510 +/- 30 (Beta-126880) (CMC-1521)630 +/- 40 (Beta-126879) (CMC-1520)1180 +/- 70 (S-3370) (CMC-1408)1290 +/- 60 (S-3364) (CMC-1402)1290 +/- 60 (S-3364) (NMC-1402)",0,
+65.4,-114.2,LiPg-15,0,Tlicho cluster?,5,0,,,0,
+69.4,-81.9,NiHf-4,Tikilik;Qarmaruluit;Arna-koa-khiak;Arnaquagsaq;Ar-na-koa-khitk;Arnaquatsiak;Arnaquaksaat,,5,Pre-Dorset;Dorset (early);Dorset (late);Thule,,,0,
+69.4,-106.3,NiNg-8,Freezer,,5,Dorset (late);Dorset;Dorset (early),,,AD 500-1000,
+#N/A,#N/A,PlPx-1,#N/A,,5,#N/A,,,#N/A,
+#N/A,#N/A,KkHh-1,#N/A,,4,#N/A,,,#N/A,
+#N/A,#N/A,OdPc-5,#N/A,,4,#N/A,,,#N/A,
+,,OhRh-1,Nelson River,,4,0,,,0,
+74.7,-94.9,QeJu-3,Lake,High Arctic Islands,4,Thule,,,0,
+62.8,-115.9,KePl-1,Frank Channel,,3,"Timber PointFrank ChannelTaltheilei (late)",,"670 +/- 70 (GAK-1865) (CMC-239)360 +/- 80 (GSC-1559) (CMC-165)",0,
+66.6,-118.0,MdPs-25,0,Great Bear Lake,3,0,,,0,
+66.7,-117.6,MePq-5,0,Great Bear Lake,3,0,,,0,
+66.7,-117.7,MePr-6,0,Great Bear Lake,3,0,,,0,
+#N/A,#N/A,MhPo-1,#N/A,,3,#N/A,,,#N/A,
+67.6,-139.7,MjVl-1,Klo-kut,,3,Gwich'in,,,0,
+68.4,-114.0,NcPf-1,Nuvuk,Coronation Gulf,3,Thule,,,0,
+0.0,0.0,NjRc-4,Bodena;Coastal Site No. 13,,3,Thule;Copper Inuit,,,0,
+#N/A,#N/A,NlRu-1,#N/A,,3,#N/A,,,#N/A,
+#N/A,#N/A,NlTk-2,#N/A,,3,#N/A,,,#N/A,
+70.6,-112.6,OdPb-1,Kuuk-IV,,3,Copper Inuit,,,0,
+#N/A,#N/A,OdPp-2,#N/A,,3,#N/A,,,#N/A,
+,,OdPq-1,Memorana,,3,0,,,0,
+72.5,-93.4,PcJq-5,Cape Garry,Somerset Island,3,Thule;Inuit,,"530 +/- 80 (S-1321) (CMC-913)1070 +/- 70 (S-1320) (CMC-912)910 +/- 60 (S-1322) (CMC-914)1040 +/- 65 (UGa-1619)",0,
+73.0,-80.6,PgHb-1,Nunguvik,,3,Dorset (early);Dorset (late);Thule (early);Thule (late);Norse ?,,"1510 +/- 70 (S-1443) (CMC-958)1770 +/- 100 (S-1445) (CMC-960)1860 +/- 120 (S-1444) (CMC-959)1740 +/- 130 (S-1614) (CMC-1020)670 +/- 50 (S-1615) (CMC-1021)1440 +/- 90 (S-1940) (CMC-1157)1320 +/- 80 (S-1941) (CMC-1158)2320 +/- 50 (S-1613) (CMC-1019)",mostly from 5th to 7th century to Thule times,
+74.7,-94.9,QeJu-1,High;M1,High Arctic Islands,3,Dorset;Thule,,"670 +/- 40 (Beta 146775) (CMC-1549)680 +/- 40 (Beta 146776) (CMC-1550)1340 +/- 70 (Beta-146777) (CMC-1551)1430 +/- 40 (Beta-153135) (CMC-1565)","AD 1274-1397AD 1270-1394approximately 800 AD- 1500 AD (Hazell)",
+74.7,-94.9,QeJu-2,Lower;M2,High Arctic Islands,3,Dorset;Thule,,,approximately 800 AD - 1500 AD,
+76.1,-94.9,RaJu-1,Snowdrift,High Arctic Islands,3,Dorset (late),,,0,
+76.3,-93.7,RbJr-1,Porden Point Brook Village,High Arctic Islands,3,Thule,,"550 +/- 70 (S-1420) (CMC-936)1380 +/- 90 (S-1421) (CMC-937)1000 +/- 110 (S-1422) (CMC-938)1500 +/- 100 (S-1423) (CMC-939)1470 +/- 100 (S-1424 (CMC-940)670 +/- 40 (Beta-219197) (CMC-1690)",0,
+,,KbNa-16,0,,2,0,,,0,
+65.8,-114.3,LkPg-9,0,Tlicho cluster?,2,0,,,0,
+66.6,-122.6,MdRh-3,0,Great Bear Lake,2,0,,,0,
+,,MePr-8,Great Bear Lake XII,Great Bear Lake,2,0,,,0,
+66.9,-121.3,MfRd-4,0,Great Bear Lake,2,0,,,0,
+,,MiRi-2,Herton Lake/ Great Bear Lake II,,2,0,,,0,
+#N/A,#N/A,MkPk-2,#N/A,"Coronation GulfBloody Falls Cluster",2,#N/A,,,#N/A,
+#N/A,#N/A,MlPi-1,#N/A,,2,#N/A,,,#N/A,
+68.2,-131.0,NbTj-1,0,,2,0,,,0,
+#N/A,#N/A,NgTi-1,#N/A,,2,#N/A,,,#N/A,
+69.2,-132.4,NhTn-1,Gutchiak,,2,0,,,0,
+#N/A,#N/A,NiJp-11,#N/A,,2,#N/A,,,#N/A,
+69.4,-106.3,NiNg-1,Buchanan; Buchnnan Vic. Island,,2,Pre-Dorset;Dorset;Dorset (late),,"2185 +/- 120 (M-1504) (CMC-2)2910 +/- 105 (I-2053) (CMC-86)2990 +/- 125 (I-2054) (CMC-87)2600 +/- 130 (GSC-656) (CMC-108)",0,
+69.3,-134.1,NiTs-2,Pond,,2,0,,,0,
+#N/A,#N/A,OdPc-2,#N/A,,2,#N/A,,,#N/A,
+72.1,-94.0,PaJs-3,Fort Ross South;Hazard Inlet Site,Somerset Island,2,Palaeoeskimo;Thule,,,0,
+72.1,-94.0,PaJs-4,Fort Ross North,Somerset Island,2,Dorset;Thule,,,0,
+72.7,-93.9,PeJr-8,Loon,Somerset Island,2,Dorset,,720 +/- 70 (Beta-10702),0,
+#N/A,#N/A,XBM-9,#N/A,,2,#N/A,,,#N/A,
+#N/A,#N/A,HAR-1,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,JiNd-1,#N/A,,1,#N/A,,,#N/A,
+,,KbNb-4,KbNb-4,,1,0,,,0,
+62.4,-106.0,KcNg-3,0,Thelon River,1,Shield Archaic;ASTt;Taltheilei (middle);Chipewyan,,,0,
+63.7,-104.5,KjNb-7,Duc,Thelon River,1,"Northern PlanoShield ArchaicPre-DorsetTaltheilei (early)Taltheilei (middle)Taltheilei (late)Dene ",,"2440 +/- 120 (S-711) (CMC-515)2445 +/- 75 (S-665) (CMC-517)2355 +/- 80 (S-715) (CMC-572)1150 +/- 85 (S-716) (CMC-573)845 +/- 115 (S-717) (CMC-574)5010 +/- 225 (S-735) (CMC-581)1465 +/- 195 (S-736) (CMC-582)2345 +/- 170 (S-737) (CMC-583)1695 +/- 110 (S-629)modern (S-712) (CMC-516)6120 +/- 110 (S-1258) (CMC-883)500 +/- 95 (I-5335)5060 +/- 310 (S-710)",0,
+63.7,-100.4,KkLn-1,Grant Lake,Thelon River,1,"Northern PlanoTaltheilei (middle)Taltheilei (late)Caribou Inuit",,,0,
+64.2,-102.5,LaLt-6,0,Thelon River,1,"Taltheilei (late)Chipewyan",,,0,
+64.3,-96.6,LbLb-2,0,Thelon River,1,Caribou Inuit,,,0,
+64.2,-114.1,LbPg-7,Trout Bay,Tlicho cluster?,1,0,,modern (S-475) (CMC-244),0,
+#N/A,#N/A,LcPd-3,#N/A,,1,#N/A,,,#N/A,
+64.6,-87.6,LdHw-1,Kulaituijavik;Yellow Bluff North,,1,Thule (late),,,0,
+64.6,-112.0,LdNx-3,0,Tlicho cluster?,1,ASTt,,,0,
+65.0,-114.5,LgPh-23,0,Tlicho cluster?,1,0,,,0,
+65.1,-114.4,LgPh-29,0,Tlicho cluster?,1,0,,,0,
+65.1,-114.7,LgPi-8,0,Tlicho cluster?,1,0,,,0,
+65.2,-114.2,LhPg-6,0,Tlicho cluster?,1,0,,,0,
+65.4,-114.2,LiPg-14,0,Tlicho cluster?,1,0,,,0,
+65.4,-114.3,LiPh-11,0,Tlicho cluster?,1,0,,,0,
+65.5,-114.5,LiPh-5,0,Tlicho cluster?,1,0,,,0,
+,,MaRm-1,Great Bear Lake I,,1,0,,,0,
+66.7,-117.7,MdPr-1,Great Bear Lake II,Great Bear Lake,1,0,,,0,
+66.6,-118.0,MdPs-22,0,Great Bear Lake,1,0,,,0,
+66.6,-118.1,MdPs-31,0,Great Bear Lake,1,0,,,0,
+66.5,-118.2,MdPs-4,Great Bear Lake V,Great Bear Lake,1,0,,,0,
+66.6,-122.5,MdRh-1,0,Great Bear Lake,1,0,,,0,
+66.7,-117.6,MePq-4,0,Great Bear Lake,1,0,,,0,
+66.7,-117.7,MePr-1,0,Great Bear Lake,1,0,,,0,
+67.3,-137.8,MhVf-1,Bell Mouth,,1,Gwich'in,,,0,
+#N/A,#N/A,MiPq-1a,#N/A,,1,#N/A,,,#N/A,
+0.0,0.0,MiRh-12,0,,1,0,,,0,
+,,MiRi-1,Herton Lake/ Great Bear Lake I,,1,0,,,0,
+,,MiRi-3,Herton Lake/ Great Bear Lake III,,1,0,,,0,
+#N/A,#N/A,MjVg-8,#N/A,,1,#N/A,,,#N/A,
+67.6,-139.6,MjVk-7,Old Chief Creek,,1,Gwich'in,,,Est. 300-1000,
+#N/A,#N/A,MjVl-6 (?),#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,MkPj-7,#N/A,"Coronation GulfBloody Falls Cluster",1,#N/A,,,#N/A,
+67.7,-115.4,MkPk-1,0,"Coronation GulfBloody Falls Cluster",1,0,,,0,
+#N/A,#N/A,MkPk-11,#N/A,"Coronation GulfBloody Falls Cluster",1,#N/A,,,#N/A,
+67.7,-115.4,MkPk-12,0,"Coronation GulfBloody Falls Cluster",1,0,,,0,
+67.7,-115.4,MkPk-4,0,"Coronation GulfBloody Falls Cluster",1,0,,,0,
+67.8,-115.3,MkPk-9,Willowherb,"Coronation GulfBloody Falls Cluster",1,0,,1450 ñ 80 (S-468) years B.P. (A.D. 500) - (McGhee 1970),0,
+,,MMPP-1,MmPp-1,,1,0,,,0,
+0.0,0.0,MyPy-1,0,,1,0,,,0,
+,,NfTn-2,0,,1,0,,,0,
+#N/A,#N/A,NhJp-4,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,NhPf-0?,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,NhTr-1,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,NiHf-1,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,NiJq-15,#N/A,,1,#N/A,,,#N/A,
+,,NiTr-2,0,,1,0,,,0,
+#N/A,#N/A,NkRh-1,#N/A,,1,#N/A,,,#N/A,
+,,NkRh-8,0,,1,0,,,0,
+#N/A,#N/A,NkRj-3,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,NkRo-2,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,NkTc-5,#N/A,,1,#N/A,,,#N/A,
+70.0,-92.0,OaJl-2,0,,1,Inuit,,,0,
+70.1,-127.5,OaRw-2,Bison Skull,,1,0,,,0,
+70.1,-131.0,OaTi-1,McKinley Bay,,1,Inuvialuit;Mackenzie Inuit;Thule,,"310 +/- 80 (AECV-1652 C)410 +/- 70 (AECV-1653 C)280 +/- 40 (CMC-1654)",16th - 17th century,
+70.2,-124.8,ObRo-1,Vaughn,,1,Thule,,,0,
+#N/A,#N/A,ObRv-25,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,OdTa-#,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,OhPo-5,#N/A,,1,#N/A,,,#N/A,
+,,OlRr-1,0,,1,0,,,0,
+#N/A,#N/A,PaJs-13,#N/A,Somerset Island ?,1,#N/A,,,#N/A,
+72.5,-111.2,PcNv-1,0,,1,0,,,0,
+72.7,-93.8,PeJr-4,Nuvuktutak ?,Somerset Island,1,Thule;Inuit,,,0,
+#N/A,#N/A,PgHb-3,#N/A,,1,#N/A,,,#N/A,
+73.5,-120.1,PjRa-7,Thomsen River 1,,1,Copper Inuit;British Navy,,,AD 1851 - 1890,
+#N/A,#N/A,PkPx-1,#N/A,,1,#N/A,,,#N/A,
+#N/A,#N/A,PSM-74,#N/A,,1,#N/A,,,#N/A,
+74.6,-94.2,QdJs-1,0,High Arctic Islands,1,ASTt;Dorset (late);European,,,0,
+#N/A,#N/A,QkHn-12,#N/A,,1,#N/A,,,#N/A,
+76.3,-93.7,RbJr-5,0,High Arctic Islands,1,Thule,,,0,
+79.0,-76.3,SgFm-14,0,Ellesmere Island,1,Thule,,,0,
+79.1,-76.1,SgFm-4,Eskimobyen,Ellesmere Island,1,Thule;Norse,,"970 +/- 120 (-2796) corrected610 +/- 50 (-2953) corrected1200 +/- 70 (-3108) corrected560 +/- 120 (-6073) corrected430 +/- 70(-2950) corrected510 +/- 70 (-3018) uncorrected155 +/- 110 (-7122) corrected400 +/- 50 (-3267)280 +/- 115 (-7123) corrected505 +/- 150 (7123A) corrected730 +/- 70 (-3396) corrected910 +/- 50 (-3379) corrected",0,
+#N/A,#N/A,WAI-96,#N/A,,1,#N/A,,,#N/A,
+69.6,-138.9,NjVi-1,Pauline Cove,Mackenzie Delta,3,,,,,
