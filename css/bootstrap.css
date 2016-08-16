@@ -6758,3 +6758,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+/* Custom CSS for MINeS
+------------------------*/
+@media(min-width:786px){
+  .navbar-nav li{
+    font-size:1.1vw;
+  }
+}
