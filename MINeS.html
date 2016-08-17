@@ -6,6 +6,7 @@
         <!--Core CSS-->
           <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/bootstrap.custom.css">
           <!-- Optional theme -->
             <link rel="stylesheet" href="css/bootstrap-theme.min.css">
           <!--Leaflet-->
@@ -34,13 +35,13 @@
     <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet'>
 
 <!--header-->
-      <div class="container-fluid"> <!--set the fixed hieght for this container in style css-->
-        <div class="row">
-          <div class="col-sm-12">
-              <h1 style="font-size:2.75vw">Copper MINeS Digital Atlas - Metallurgy in Indigenous Northern Societies</h1>
+        <div class="container-fluid"> <!--set the fixed hieght for this container in style css-->
+          <div class="row">
+            <div class="col-sm-12">
+                <h1 id="header">Copper MINeS Digital Atlas - Metallurgy in Indigenous Northern Societies</h1>
+            </div>
           </div>
         </div>
-      </div>
 
 <!--navbar-->
       <nav class="navbar navbar-inverse">
@@ -55,7 +56,6 @@
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
            <ul class="nav navbar-nav">
-             <li><a data-toggle="tab" href="#intro">Intro</a></li>
              <li class="active"><a data-toggle="tab" href="#interactivemap">Explore the Archaeology</a></li>
              <li><a data-toggle="tab" href="#geology">Geological Copper</a></li>
              <li><a data-toggle="tab" href="#experimental">Experimental Archaeology</a></li>
@@ -74,13 +74,9 @@
 <div class="tab-content" > <!-- interacts with 'data-toggle="tab"' in nav bar -->
 
 <!--Introduction Content-->
-  <div id="intro" class="tab-pane fade">
-    <div class="col-sm-12">
-      <p>
-        This should actually be a modal box that is active on loading.  When you click out of it, you can reaccess it if need be by clicking the intro button in the nav bar.  http://www.w3schools.com/howto/howto_css_modals.asp
-      </p>
-    </div>
-  </div>
+
+      <!--  This should actually be a modal box that is active on loading.  When you click out of it, you can reaccess it if need be by clicking the intro button in the nav bar.  http://www.w3schools.com/howto/howto_css_modals.asp -->
+
 
 <!-- Interactive Map Content-->
   <div id="interactivemap" class="tab-pane fade in active" style="position:fixed;bottom:40px;top:125px;height:calc(100%-165px)">

@@ -1,0 +1,17 @@
+/* Custom CSS for MINeS
+------------------------*/
+@media (min-width: 786px){
+  .navbar-nav li{
+    font-size:1.2vw;
+  }
+}
+
+.navbar-inverse {
+    position: relative;
+    z-index: 1; /*this prioritizes the navbar over the underlying div when the navbar dropdown is open*/
+}
+@media {
+  #header {
+    font-size:2.75vw;
+  }
+}
