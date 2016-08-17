@@ -74,6 +74,7 @@
 <div class="tab-content" > <!-- interacts with 'data-toggle="tab"' in nav bar -->
 
 <!--Introduction Content-->
+
       <!-- Modal -->
       <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -143,6 +144,7 @@
                     'marker-color': '59245f'
                 })
             }).on('ready', function() {
+                map.fitBounds(points.getBounds());
                 var markers = L.markerClusterGroup({
                     showCoverageOnHover: false,
                     maxClusterRadius: 50
@@ -186,10 +188,7 @@
 <!-- Bibliography Content -->
           <div id="biblio" class="tab-pane fade">
             <div class="col-sm-12">
-              <p>
-                <li>biblio text?</li>
-                <li>link each citation to a <a href="https://scholar.google.com/">Google Scholar</a> search?</li>
-              </p>
+              <iframe src="//www.mendeley.com/groups/9230961/northern-archaeological-copper/widget/21/3/" frameborder="0" allowTransparency="true" style="width:260px;height:550px;"></iframe><p style="width:260px"><a href="http://www.mendeley.com/groups/9230961/northern-archaeological-copper/" title="Northern Archaeological Copper on Mendeley">Northern Archaeological Copper</a> is a group in <a href="https://www.mendeley.com/groups/social-sciences/" title="Social Sciences on Mendeley">Social Sciences</a> on <a href="https://www.mendeley.com/" title="Mendeley">Mendeley</a>.</p>
             </div>
           </div>
 
