@@ -74,8 +74,6 @@
 <div class="tab-content" > <!-- interacts with 'data-toggle="tab"' in nav bar -->
 
 <!--Introduction Content-->
-
-      <!--  This should actually be a modal box that is active on loading.  When you click out of it, you can reaccess it if need be by clicking the intro button in the nav bar.  http://www.w3schools.com/howto/howto_css_modals.asp -->
       <!-- Modal -->
       <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -145,7 +143,6 @@
                     'marker-color': '59245f'
                 })
             }).on('ready', function() {
-                map.fitBounds(points.getBounds());
                 var markers = L.markerClusterGroup({
                     showCoverageOnHover: false,
                     maxClusterRadius: 50
