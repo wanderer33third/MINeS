@@ -74,6 +74,7 @@
 <div class="tab-content" > <!-- interacts with 'data-toggle="tab"' in nav bar -->
 
 <!--Introduction Content-->
+
       <!-- Modal -->
       <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -119,7 +120,7 @@
           var map = L.mapbox.map('map', 'mapbox.streets-satellite')
 
             //enter path for .csv here
-            map.setView([68, -115], 3);
+            map.setView([67, -115], 3);
             function eachLayer(layer) {
                 var feature = layer.toGeoJSON();
                 if (feature.properties && feature.properties.Site_Num) {
@@ -143,6 +144,7 @@
                     'marker-color': '59245f'
                 })
             }).on('ready', function() {
+                map.fitBounds(points.getBounds());
                 var markers = L.markerClusterGroup({
                     showCoverageOnHover: false,
                     maxClusterRadius: 50
