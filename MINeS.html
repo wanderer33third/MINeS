@@ -109,7 +109,7 @@
                   function eachLayer(layer) {
                       var feature = layer.toGeoJSON();
                       if (feature.properties && feature.properties.Site_Num) {
-                          layer.bindPopup("Site Number: " + feature.properties.Site_Num + <br/> + "Site Name: " + feature.properties.Site_Name);
+                          layer.bindPopup("Site Number: " + feature.properties.Site_Num + "<br>Site Name: " + feature.properties.Site_Name);
                       }
                   }
 
