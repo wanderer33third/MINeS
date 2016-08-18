@@ -109,7 +109,9 @@
                   function eachLayer(layer) {
                       var feature = layer.toGeoJSON();
                       if (feature.properties && feature.properties.Site_Num) {
-                          layer.bindPopup(feature.properties.Site_Num + ", " + feature.properties.Site_Name);
+                          layer.bindPopup(
+                            "Site Number: " + feature.properties.Site_Num,
+                            "Site Name: " + feature.properties.Site_Name);
                       }
                   }
 
@@ -121,7 +123,8 @@
                   }).on('ready', function() {
                       map.fitBounds(points.getBounds());
                       var markers = L.markerClusterGroup({
-                          maxClusterRadius: 30
+                          showCoverageOnHover: true,
+                          maxClusterRadius: 25
                       });
                       markers.addLayer(points);
                       map.addLayer(markers);
