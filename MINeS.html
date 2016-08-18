@@ -121,8 +121,7 @@
                   }).on('ready', function() {
                       map.fitBounds(points.getBounds());
                       var markers = L.markerClusterGroup({
-                          showCoverageOnHover: true,
-                          maxClusterRadius: 25
+                          maxClusterRadius: 30
                       });
                       markers.addLayer(points);
                       map.addLayer(markers);
