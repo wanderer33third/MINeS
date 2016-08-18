@@ -4,13 +4,10 @@
     <head>
       <title>Copper MINeS Digital Atlas</title>
         <!--Core CSS-->
-          <!-- Latest compiled and minified CSS -->
-            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstap CSS -->
             <link rel="stylesheet" href="css/bootstrap.custom.css">
-          <!-- Optional theme -->
-            <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-          <!--Leaflet-->
-            <link rel="stylesheet" href="css/leaflet.css" />
+            <link rel="stylesheet" href="css/bootstrap-theme.min.css">  <!-- Optional theme -->
+            <link rel="stylesheet" href="css/leaflet.css" /> <!--Leaflet-->
             <!--<link rel="stylesheet" href="css/style.css" />-->
 
 
@@ -18,7 +15,6 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> <!-- This script made the toggling nav bar tabs active -->
           <!-- Bootstrap JavaScript -->
             <script src="js/bootstrap.min.js"></script>
-
           <!--Leaflet Javascript -->
             <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script> <!--go look for the code for this-->
           <!--JQuery -->
@@ -125,8 +121,8 @@
                   }).on('ready', function() {
                       map.fitBounds(points.getBounds());
                       var markers = L.markerClusterGroup({
-                          showCoverageOnHover: false,
-                          maxClusterRadius: 50
+                          showCoverageOnHover: true,
+                          maxClusterRadius: 25
                       });
                       markers.addLayer(points);
                       map.addLayer(markers);
