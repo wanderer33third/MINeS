@@ -106,6 +106,8 @@
 
                   //enter path for .csv here
                   map.setView([67, -115], 3);
+                    map.options.minZoom = 3;
+                    map.options.maxZoom = 11;
                   function eachLayer(layer) {
                       var feature = layer.toGeoJSON();
                       if (feature.properties && feature.properties.Site_Num) {
