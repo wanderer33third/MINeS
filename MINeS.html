@@ -107,11 +107,13 @@
                   //enter path for .csv here
                   map.setView([67, -115], 3);
                     map.options.minZoom = 3;
-                    map.options.maxZoom = 11;
+                    map.options.maxZoom = 10;
                   function eachLayer(layer) {
                       var feature = layer.toGeoJSON();
                       if (feature.properties && feature.properties.Site_Num) {
                           layer.bindPopup("Site Number: " + feature.properties.Site_Num + "<br>Site Name: " + feature.properties.Site_Name + "<br>Copper Objects: " + feature.properties.Number_of_Copper_Artifacts + "<br>" + feature.properties.link);
+                          layer.on('mouseover', function() { layer.openPopup(); });
+                          layer.on('mouseout', function() { layer.closePopup(); });
                       }
                   }
 
