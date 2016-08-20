@@ -19,6 +19,12 @@
             <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script> <!--go look for the code for this-->
           <!--JQuery -->
 
+          <!--Modal load-->
+          <script type="text/javascript">
+              $(window).load(function(){
+                  $('#introModal').modal('show');
+              });
+          </script>
 
 
     </head>
@@ -79,10 +85,12 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Modal Header</h4>
+              <h4 class="modal-title">Welcome to the CopperMINeS Digital Atlas</h4>
             </div>
             <div class="modal-body">
-              <p>Some text in the modal.</p>
+              <p>This is a growing site, so visit early and often for more content as it is loaded.</p>
+              <p>Without the Digitial Archaeology Institute at Michigan State University, this project would not exist.  Huge thanks to them and the National Endowment for the Humanities, Office of the Digital Humanities for their support, monetary and otherwise.</p>
+              <img src="http://digitalarchaeology.msu.edu/wp-content/uploads/2014/11/InstituteDigitalArch-Logo-35.png" alt="MSUDAI" width="150px" height="150px">   <img src="http://www.neh.gov/files/neh_at_logo.png" alt="NEH" height="75px">
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
