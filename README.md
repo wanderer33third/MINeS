@@ -1,6 +1,6 @@
 # Copper MINeS Digital Atlas - Metallurgy in Indigenous Northern Society
 
-http://wanderer33third.github.io/MINeS/MINeS.html
+http://wanderer33third.github.io/MINeS/index.html
 
 #Copyright and License
 
