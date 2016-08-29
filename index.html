@@ -123,8 +123,8 @@
 
                   //enter path for .csv here
                   map.setView([67, -115], 3);
-                    map.options.minZoom = 3;
-                    map.options.maxZoom = 9;
+                    map.options.minZoom = 3;  //Zoom Level 3 corresponds with 1:70 million scale
+                    map.options.maxZoom = 8;  //Zoom Level 8 corresponds with 1:2 million scale (restriction placed by Nunavut)
                   function eachLayer(layer) {
                       var feature = layer.toGeoJSON();
                       if (feature.properties && feature.properties.Site_Num) {
